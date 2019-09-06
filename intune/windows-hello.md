@@ -26,7 +26,10 @@ ms.collection: M365-identity-device-management
 ms.reviewer: shpate
 ---
 
-# Integrate Windows Hello for Business with Microsoft Intune  
+# Integrate 
+
+
+Hello for Business with Microsoft Intune  
 
 
 [!INCLUDE [azure_portal](./includes/azure_portal.md)]
@@ -65,7 +68,7 @@ Use this article to create a default Windows Hello for Business policy that targ
 3. Select from the following options for **Configure Windows Hello for Business**:
 
     - **Disabled**. If you don't want to use Windows Hello for Business, select this setting. If disabled, users cannot provision Windows Hello for Business except on Azure Active Directory joined mobile phones where provisioning may be required.
-    - **Enabled**. Select this setting if you want to configure Windows Hello for Business settings.  When you select *Enabled*, additional settings for WIndows Hello become visible. 
+    - **Enabled**. Select this setting if you want to configure Windows Hello for Business settings.  When you select *Enabled*, additional settings for Windows Hello become visible. 
     - **Not configured**. Select this setting if you don't want to use Intune to control Windows Hello for Business settings. Any existing Windows Hello for Business settings on Windows 10 devices is not changed. All other settings on the pane are unavailable.
 
 4. If you selected **Enabled** in the previous step, configure the required settings that are applied to all enrolled Windows 10 and Windows 10 Mobile devices. After  you configure these settings, select **Save**.
